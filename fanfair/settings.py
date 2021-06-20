@@ -58,12 +58,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'fans_clone.urls'
+ROOT_URLCONF = 'fanfair.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'fans_clone/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'fanfair/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'fans_clone.wsgi.application'
+WSGI_APPLICATION = 'fanfair.wsgi.application'
 
 
 # Database
